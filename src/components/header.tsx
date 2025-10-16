@@ -16,7 +16,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 w-full">
           {/* Logo */}
           <div className="flex items-center w-1/4">
-            <Link href="/" className='flex items-center gap-2 md:gap-4 ml-4'>
+            <Link href="/" className='flex items-center gap-2 md:gap-4'>
               <Image src="/logo.svg" alt="Logo" width={75} height={35} className="w-auto h-12 w-12" />
               <span className="text-black text-lg md:text-xl uppercase font-extrabold dark:text-white hover:text-orange-500 dark:hover:text-orange-500">CODELUDE</span>
             </Link>

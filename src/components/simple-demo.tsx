@@ -1,6 +1,5 @@
 "use client";
 
-import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import { Carousel } from "@/components/ui/apple-cards-carousel";
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";

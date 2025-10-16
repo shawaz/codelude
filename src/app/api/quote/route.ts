@@ -53,7 +53,7 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: text || "Failed to save" }, { status: 500 });
     }
     return NextResponse.json({ ok: true });
-  } catch (_e) {
+  } catch {
     return NextResponse.json({ error: "Unexpected error" }, { status: 500 });
   }
 }

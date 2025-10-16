@@ -414,7 +414,7 @@ export default function GlobeComp() {
             Outsource Coding Anxiety
           </h2>
           <p className="text-center text-sm sm:text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 mt-2 mx-auto px-4">
-            We can help your technology to reach its full potential.<br /> At Codelude, Our top talents can help you with your <br /> <b>Software</b> and <b>Digital marketing</b> needs.
+            We can help your technology to reach its full potential.<br /> At Codelude, Our top talents can help you with your <br /> <b>Software</b> and <b>Digital Marketing</b>
           </p>
         </motion.div>
       <div className="mx-auto w-full max-w-md sm:max-w-7xl relative overflow-hidden h-[22rem] sm:h-[60vh] md:h-[40rem] px-4">

@@ -7,7 +7,7 @@ import { Mesh } from "three";
 function Globe() {
   const meshRef = useRef<Mesh>(null);
 
-  useFrame((state) => {
+  useFrame(() => {
     if (meshRef.current) {
       meshRef.current.rotation.y += 0.005;
     }

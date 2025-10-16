@@ -9,15 +9,16 @@ export default function Footer() {
     <footer className="border-t border-border mt-20">
       <div className="max-w-7xl mx-auto p-4 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 items-center">
         <div className="text-sm text-center sm:text-left text-muted-foreground">
-        <p>© {new Date().getFullYear()} Codelude Technologies Pvt. Ltd.</p>
+        <p>© {new Date().getFullYear()} Advanced Future Information Technologies LLC</p>
         </div>
 
         <div className="justify-self-center text-sm text-muted-foreground flex items-center gap-2">
-        <a href="https://instagram.com" target="_blank" rel="noreferrer" className="hover:underline">Instagram</a>
+        <a href="https://www.linkedin.com/company/codelude/" target="_blank" rel="noreferrer" className="hover:underline">LinkedIn</a>
         <span>·</span>
-        <a href="https://x.com" target="_blank" rel="noreferrer" className="hover:underline">X</a>
+        <a href="https://x.com/codelude" target="_blank" rel="noreferrer" className="hover:underline">X</a>
         <span>·</span>
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:underline">LinkedIn</a>
+        <a href="https://www.instagram.com/code.lude/" target="_blank" rel="noreferrer" className="hover:underline">Instagram</a>
+        
         </div>
 
 
@@ -26,9 +27,9 @@ export default function Footer() {
           <div className="mt-2 flex gap-3 justify-center sm:justify-end">
             <a href="/terms" className="hover:underline">Terms</a>
             <span>·</span>
-            <a href="/privacy" target="_blank" rel="noreferrer" className="hover:underline">Privacy</a>
+            <a href="/privacy" className="hover:underline">Privacy</a>
             <span>·</span>
-            <a href="/cookie" target="_blank" rel="noreferrer" className="hover:underline">Cookie</a>
+            <a href="/cookie" className="hover:underline">Cookie</a>
           </div>
         </div>
       </div>
