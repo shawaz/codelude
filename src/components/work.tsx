@@ -34,7 +34,7 @@ const carouselItems = [
 export default function WorkSection() {
   return (
     <section id="work" className="container mx-auto px-4 py-16">
-      <h1 className="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12">Projects</h1>
+      <h1 className="text-3xl sm:text-4xl font-bold text-center uppercase mb-8 sm:mb-12">Projects</h1>
       <div className="max-w-7xl mx-auto">
         <Carousel items={carouselItems} />
       </div>

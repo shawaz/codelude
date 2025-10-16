@@ -20,8 +20,20 @@ const monoton = Monoton({
 });
 
 export const metadata: Metadata = {
-  title: "ADVFUT",
-  description: "ADVFUT is a company that builds the future technology with the latest and greatest technologies.",
+  title: "Codelude",
+  description: "Codelude help your technology to reach its full potential.",
+  icons: {
+    icon: "/logo.svg",
+  },
+  openGraph: {
+    images: "/logo.svg",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Codelude",
+    description: "Codelude help your technology to reach its full potential.",
+    images: "/logo.svg",
+  },
 };
 
 export default function RootLayout({
@@ -31,13 +43,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta name="color-scheme" content="light dark" />
+        <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+        <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${monoton.variable} antialiased`}
       >
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="light"
+          enableSystem={false}
           disableTransitionOnChange
         >
           {children}

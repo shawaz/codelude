@@ -15,10 +15,10 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16 w-full">
           {/* Logo */}
-          <div className="flex items-center">
-            <Link href="/" className='flex items-center gap-2 md:gap-4'>
-              <Image src="/advfut.svg" alt="Logo" width={35} height={35} className="w-auto h-6" />
-              <span className="text-black text-lg md:text-xl uppercase font-extrabold dark:text-white hover:text-orange-500 dark:hover:text-orange-500">ADVFUT</span>
+          <div className="flex items-center w-1/4">
+            <Link href="/" className='flex items-center gap-2 md:gap-4 ml-4'>
+              <Image src="/logo.svg" alt="Logo" width={75} height={35} className="w-auto h-12 w-12" />
+              <span className="text-black text-lg md:text-xl uppercase font-extrabold dark:text-white hover:text-orange-500 dark:hover:text-orange-500">CODELUDE</span>
             </Link>
           </div>
           
@@ -41,7 +41,7 @@ export default function Header() {
           </nav>
 
           {/* Desktop Theme Toggle & CTA */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-4 w-1/4 justify-end">
             <ThemeToggle />
             <Sheet>
               <SheetTrigger asChild>

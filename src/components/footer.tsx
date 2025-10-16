@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="border-t border-border mt-20">
       <div className="max-w-7xl mx-auto p-4 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 items-center">
         <div className="text-sm text-center sm:text-left text-muted-foreground">
-        <p>© {new Date().getFullYear()} Advanced Future Information Technologies LLC</p>
+        <p>© {new Date().getFullYear()} Codelude Technologies Pvt. Ltd.</p>
         </div>
 
         <div className="justify-self-center text-sm text-muted-foreground flex items-center gap-2">
@@ -24,11 +24,11 @@ export default function Footer() {
         <div className="justify-self-center mb-16 sm:mb-0 sm:justify-self-end text-center sm:text-right text-sm text-muted-foreground">
           
           <div className="mt-2 flex gap-3 justify-center sm:justify-end">
-            <a href="mailto:hello@advfut.com" className="hover:underline">Terms of Service</a>
+            <a href="/terms" className="hover:underline">Terms</a>
             <span>·</span>
-            <a href="https://x.com" target="_blank" rel="noreferrer" className="hover:underline">Privacy Policy</a>
+            <a href="/privacy" target="_blank" rel="noreferrer" className="hover:underline">Privacy</a>
             <span>·</span>
-            <a href="https://x.com" target="_blank" rel="noreferrer" className="hover:underline">Cookie Policy</a>
+            <a href="/cookie" target="_blank" rel="noreferrer" className="hover:underline">Cookie</a>
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@ export default function Footer() {
       <div className="sm:hidden fixed bottom-0 left-0 right-0 z-50 px-4 pb-[calc(1rem+env(safe-area-inset-bottom))] pt-3 bg-white/90 dark:bg-black/90 backdrop-blur border-t border-border">
         <Sheet>
           <SheetTrigger asChild>
-            <Button className="w-full">Request a Quote</Button>
+            <Button className="w-full h-12">Request a Quote</Button>
           </SheetTrigger>
           <SheetContent side="bottom" className="h-[90vh] w-full p-4 overflow-y-auto">
             <SheetHeader>

@@ -395,8 +395,7 @@ export default function GlobeComp() {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center py-10 sm:py-20 h-auto sm:h-screen dark:bg-black bg-white relative w-full mt-16">
-      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-[50vh] sm:h-[60vh] md:h-[40rem] px-4">
+    <div className="min-h-screen flex flex-col items-center justify-center py-10 sm:py-20 h-auto sm:h-screen dark:bg-black bg-white relative w-full mt-16">
         <motion.div
           initial={{
             opacity: 0,
@@ -409,17 +408,19 @@ export default function GlobeComp() {
           transition={{
             duration: 1,
           }}
-          className="div mb-4 sm:mb-8"
+          className="div mb-24 sm:mb-0"
         >
-          <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold text-black dark:text-white px-4">
-            We Build Future Globally
+          <h2 className="text-center text-3xl md:text-4xl font-bold text-black dark:text-white px-4">
+            Outsource Coding Anxiety
           </h2>
-          <p className="text-center text-sm sm:text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto px-4">
-            We build the future technology with the latest and greatest technologies.
+          <p className="text-center text-sm sm:text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 mt-2 mx-auto px-4">
+            We can help your technology to reach its full potential.<br /> At Codelude, Our top talents can help you with your <br /> <b>Software</b> and <b>Digital marketing</b> needs.
           </p>
         </motion.div>
-        <div className="absolute w-full bottom-0 inset-x-0 h-20 sm:h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40 my-6" />
-        <div className="absolute w-full -bottom-10 sm:-bottom-20 h-full z-10">
+      <div className="mx-auto w-full max-w-md sm:max-w-7xl relative overflow-hidden h-[22rem] sm:h-[60vh] md:h-[40rem] px-4">
+        
+        <div className="absolute inset-x-0 bottom-0 w-full h-16 sm:h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40" />
+        <div className="absolute inset-0 z-10">
           <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
       </div>

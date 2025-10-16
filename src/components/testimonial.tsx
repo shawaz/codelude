@@ -4,21 +4,21 @@ export default function Testimonials() {
   const testimonials = [
     {
       quote: "I love this product! It has made my life so much easier.",
-      name: "John Doe",
-      designation: "CEO",
-      src: "/testimonial1.jpg",
+      name: "Sharfraz Sharif",
+      designation: "Dextrip - Founder",
+      src: "/reviews/sharfraz.png",
     },
     {
       quote: "Amazing service and support. Highly recommended!",
       name: "Jane Smith",
       designation: "CTO",
-      src: "/testimonial2.jpg",
+      src: "/reviews/rob.jpg",
     },
     {
       quote: "The best investment we've made for our business.",
       name: "Mike Johnson",
       designation: "Founder",
-      src: "/testimonial3.jpg",
+      src: "/reviews/ozil.jpg",
     },
   ];
   return (
