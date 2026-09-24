@@ -37,6 +37,9 @@ export default function Header() {
                 <li className="text-black text-sm uppercase font-bold dark:text-white hover:text-orange-500 dark:hover:text-orange-500">
                     <Link href="#industries">Industries</Link>
                 </li>
+                <li className="text-black text-sm uppercase font-bold dark:text-white hover:text-orange-500 dark:hover:text-orange-500">
+                    <Link href="/contact">Contact</Link>
+                </li>
             </ul>
           </nav>
 
